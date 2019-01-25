@@ -1,0 +1,11 @@
+{
+  "nio/Speak": {
+    "description": "Offline text-to-speech conversion",
+    "categories": [
+      "Hardware"
+    ],
+    "tags": "audio talk say speech",
+    "from_readme": "docs/speak_block.md",
+    "from_python": "speak_block.Speak"
+  }
+}
