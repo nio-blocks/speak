@@ -14,7 +14,7 @@ class TestExample(NIOBlockTestCase):
         self.configure_block(blk, {"message":"{{$bar}}"})
         blk.start()
         mock_init.assert_called_once_with()
-        mock_engine.setProperty.assert_called_once_with("volume",50)
+        mock_engine.setProperty.assert_called_once_with("volume", 1)
         blk.process_signals([Signal({"bar": "nio foo foo"})])
         mock_engine.say.assert_called_once_with("nio foo foo")
         mock_engine.runAndWait.assert_called_once_with()
