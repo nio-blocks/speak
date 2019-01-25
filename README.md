@@ -7,9 +7,8 @@ Blocks in this Collection
 
 Installation
 ------------
-See the pysttx3 docs for backend requirements for your system`
+See the pysttx3 docs for backend requirements for your system
 
 Dependencies
 ------------
 pyttsx3
-Windows: `pip install pypiwin32`
