@@ -1,7 +1,7 @@
 {
   "nio/Speak": {
     "language": "Python",
-    "from_python": "speak_bock.Speak",
+    "from_python": "speak_block.Speak",
     "url": "git://github.com/nio-blocks/speak.git"
   }
 }
